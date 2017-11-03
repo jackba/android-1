@@ -1989,10 +1989,9 @@ public class FileDataStorageManager {
                                 + e.getMessage());
             }
         }
-
         return c;
-
     }
+
     public OCCapability getCapability(String accountName){
         OCCapability capability = null;
         Cursor c = getCapabilityCursorForAccount(accountName);
@@ -2126,5 +2125,4 @@ public class FileDataStorageManager {
 
         return result;
     }
-
 }
